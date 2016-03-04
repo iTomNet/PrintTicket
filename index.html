@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+    	<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="static/css/style.css">
+	</header>
+	<body>
+		<!-- Menu -->
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+		    	<div class="navbar-header">
+		      		<a class="navbar-brand" href="#">PrintTicket</a>
+		    	</div>
+		    	<ul class="nav navbar-nav">
+		      		<li class="active"><a href="#">Home</a></li>
+		      		<li><a href="#">Page 1</a></li>
+		      		<li><a href="#">Page 2</a></li> 
+		      		<li><a href="#">Page 3</a></li> 
+		    	</ul>
+		  	</div>
+		</nav>
+
+		<!-- Formulaire -->
+		<center>
+		<form action="" method="POST" role="form">
+			<div class="form-group">
+				<table class="table table-condensed" style="width:500px">
+					<tr>
+						<td>Numéro de reçu :</td>
+						<td><input class="form-control" type="text" name="numero_recu" placeholder="Numéro de reçu"></td>
+					</tr><tr>
+						<td>Numéro de ticket :</td>
+						<td><input class="form-control" type="text" name="numero_ticket" placeholder="Numéro de ticket"></td>
+					</tr><tr>
+						<td>Date d'entrée :</td>
+						<td><input class="form-control" type="text" name="date_entree" placeholder="Date d'entrée"></td>
+					</tr><tr>
+						<td>Date de sorti :</td>
+						<td><input class="form-control" type="text" name="date_sortie" placeholder="Date de sortie"></td>
+					</tr><tr>
+						<td>Prix :</td>
+						<td><input class="form-control" type="text" name="prix" placeholder="Prix"></td>
+					</tr><tr>
+						<td>TVA :</td>
+						<td><input class="form-control" type="text" name="tva" placeholder="TVA"</td>
+					</tr><tr>
+						<td></td>
+						<td><input class="btn btn-danger" type="reset" value="Reset" style="margin-left:20px;width:100px"><input class="btn btn-success" type="submit" value="SAVE" style="margin-left:100px;width:100px"></td>
+					</tr>
+				</table>
+			</div>
+		</form>
+	</center>
+	</body>
+</html>
+
+<!-- <input type="hidden" name="idDelete"> -->
