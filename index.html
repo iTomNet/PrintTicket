@@ -21,9 +21,11 @@
 		  	</div>
 		</nav>
 
-		<!-- Formulaire -->
+		
 		<center>
-		<form action="" method="POST" role="form">
+		
+		<!-- Formulaire -->
+		<form action="save_ticket.php" method="POST" role="form">
 			<div class="form-group">
 				<table class="table table-condensed" style="width:500px">
 					<tr>
@@ -51,6 +53,35 @@
 				</table>
 			</div>
 		</form>
+
+		<!-- Affichage des tickets -->
+		<table class="table table-condensed" style="width:1000px">
+			<tr>
+				<th>ID ticket</th>
+				<th>Numéro reçu</th>
+				<th>Numéro ticket</th>
+				<th>Date entrée</th>
+				<th>Date sortie</th>
+				<th>Prix</th>
+				<th>TVA</th>
+			</tr><tr>
+				<td>1</td>
+				<td>123456</td>
+				<td>2000000658909</td>
+				<td>22/02/2016 8:58:32</td>
+				<td>22/02/2016 12:02:20</td>
+				<td>6.00</td>
+				<td>20.0</td>
+			</tr><tr>
+				<td>2</td>
+				<td>144456</td>
+				<td>2000000978909</td>
+				<td>23/02/2016 8:58:32</td>
+				<td>23/02/2016 12:02:20</td>
+				<td>6.00</td>
+				<td>20.0</td>
+			</tr>
+		</table>
 	</center>
 	</body>
 </html>
